@@ -1,0 +1,27 @@
+.modalOverlay {
+background: rgba(197, 188, 188, 0.707);
+height: 100%;
+padding: 100px;
+
+}
+.modalWindow {
+	padding: 15px;
+	width: 30%;
+	border: 1px solid #000;
+	margin: 0 auto;
+	text-align: center;
+	background: rgb(226, 212, 212);
+	border-radius: 5px;
+}
+.modalHeader {
+	display: flex;
+	justify-content: space-between;
+}
+.btn {
+	border: none;
+	background: rgb(115, 127, 220);
+	border-radius: 5px;
+	color: white;
+	margin: 5px;
+	height: 30px;
+}

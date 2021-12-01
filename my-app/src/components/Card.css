@@ -1,0 +1,30 @@
+.card-container {
+
+}
+.card-list {
+	display: flex;
+	flex-wrap: wrap;
+	grid-gap: 20px	;
+	
+}
+.card-item {
+	text-align: center;
+width: 300px;
+list-style: none;
+border: 1px solid rgb(95, 117, 240);
+border-radius: 5px;
+padding-top: 15px;
+}
+.card-img {
+width: 150px;
+margin-bottom: 10px;
+}
+.card-name {
+
+}
+.card-price {
+
+}
+.card-article {
+	
+}

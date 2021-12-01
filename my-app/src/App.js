@@ -3,6 +3,10 @@ import modalWindowData from "./components/modalWindowData";
 import Button from "./components/Button/Button";
 import './components/Button/Button.scss'
 import Modal from "./components/Modal/Modal";
+import Card from "./components/Card";
+import "./components/Card.css"
+import Product from "./components/productlist/productList.jsx";
+// import list from "./components/list.json"
 // console.log(Modal);
 // import './Modal/Modal.css'
 
@@ -12,17 +16,15 @@ import Modal from "./components/Modal/Modal";
 
 // import logo from './logo.svg';
 // import './App.css';
-let i = 0;
+// let i = 0;
 class App extends React.Component {
 	constructor(props) {
 		super(props);
 		this.state = {
+			modalObject: {},
 			modalToShow: "none",
-			header: "",
-			closeButton: "",
-			text: "",
-	   	description: '',
-			action: ''
+			// arrayProduct:[]
+
 		}
 		this.modalData = modalWindowData;
   }
@@ -36,12 +38,13 @@ class App extends React.Component {
 	
 	this.setState({
 		modalToShow: "Open",
-		 header: modalDeclaration.header,
-		closeButton: modalDeclaration.true,
-		text:  modalDeclaration.text,
-    	description: modalDeclaration.description,
-		action: modalDeclaration.action,
-		closeButton: modalDeclaration.Button,
+		modalObject:{...modalDeclaration}
+// 		 header: modalDeclaration.header,
+// 		closeButton: modalDeclaration.true,
+// 		text:  modalDeclaration.text,
+//     	description: modalDeclaration.description,
+// 		action: modalDeclaration.action,
+// 		closeButton: modalDeclaration.Button,
 	})
   }
 
@@ -67,48 +70,32 @@ class App extends React.Component {
 	// 	console.log(modal.id[0]);
 		
 	// 	  });
-	i++
+	// i++
 
   }
   secondModal=() =>{
 	if (this.firstModal()) {
-		i++
+		// i++
 	}
 
   }
+
+// console.log(this.state.arrayProduct);
   render(){
 	  return(
-		  <>
-		   {/* data-modal-id={this.props.dataModalId} */}
-		<Button 
-			dataid='1'
-			className=" btn btn-first"
-			backgroundColor={{background: "#f8ec02"}} 
-			text="Open first modal"
-			onClick={this.openModal}
-			/>
+		<>
+		  
+		  {/* <Button  */}
+		{/* // 	dataid='1'
+		// 	className=" btn btn-first"
+		// 	backgroundColor={{background: "#f8ec02"}} 
+		// 	text="Open first modal"
+		// 	onClick={this.openModal}
+		// 	/>
+		 */}
+		<Card></Card> 
 
-		<Button
-		className=" btn btn-second"
-		dataid="2"
-		backgroundColor={{background: "#54f802"}}
-		text="Open second modal"
-		// onClick={this.firstModal}/>
-		onClick={this.openModal}
-		/>
-		<Button
-		dataid={3}
-		className=" btn btn-second"
-		backgroundColor={{background:  "#282c34"}}
-		text="Open three modal"
-		// onClick={this.firstModal}/>
-		onClick={this.openModal}
-		/>
-
-
-
-
-
+		
 		{this.state.modalToShow === "Open"  &&
 		<Modal
 		 onClick={this.closeModal}
@@ -120,9 +107,9 @@ class App extends React.Component {
 		 closeButton={this.state.closeButton}
 		 /> }
 		 
-		
-		</>
+			</>
 	  )
+
   }
 
 }

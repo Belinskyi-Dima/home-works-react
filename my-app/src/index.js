@@ -1,9 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import App from './App.js';
 import reportWebVitals from './reportWebVitals';
 import Button from "./components/Button/Button.jsx";
+import Card from "./components/Card.jsx"
+// import list from "./components/list.json"
+// import  "./components/list.json"
 
 
 // import "./components/Button/Button.scss"
@@ -12,7 +15,8 @@ import Button from "./components/Button/Button.jsx";
 ReactDOM.render(
   <React.StrictMode>
 
-	<App />
+	<App /> 
+	{/* <Card/> */}
 	{/* <Portal /> */}
   </React.StrictMode>,
   document.getElementById('root')
@@ -22,3 +26,4 @@ ReactDOM.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
+ 

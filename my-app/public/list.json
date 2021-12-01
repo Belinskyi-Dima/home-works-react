@@ -1,0 +1,83 @@
+[
+	{
+		"id": 1,
+		"productName": "Пилосос-робот RoboRock S5 Max white",
+
+		"price": "13 999 ",
+		"src": "https://i.eldorado.ua//240x220//goods_images/1451487/818e287f3dda72a8d8d94f228d84a055.jpg",
+		"article": "11111",
+		"color": "red"
+	},
+	{
+		"id": 2,
+		"productName": "Ноутбук LENOVO IdeaPad 3 15IML05 Business Black",
+		"price": "111666",
+		"src": "https://i.eldorado.ua//240x220/goods_images/1039096/6888785-1607961318.jpg",
+		"article": "22222",
+		"color": "red"
+	},
+	{
+		"id": 3,
+		"productName": "Стиральная машина LG ",
+		"price": "9999",
+		"src": "https://i.eldorado.ua//240x220/goods_images/1039034/6745499-1600089540.jpg",
+		"article": "33333",
+		"color": "red"
+	},
+	{
+		"id": 4,
+		"productName": "Наушники APPLE AirPods with Charging Case ",
+		"price": "4555",
+		"src": "https://i.eldorado.ua//240x220/goods_images/1038998/6317229-1553694876.png",
+		"article": "44444",
+		"color": "red"
+	},
+	{
+		"id": 5,
+		"productName": "Смартфон SAMSUNG Galaxy M52 6/128GB Light Blue",
+		"price": "10500",
+		"src": "https://i.eldorado.ua//240x220/goods_images/1038946/7408621-1632813183.jpg",
+		"article": "55555",
+		"color": "red"
+	},
+	{
+		"id": 6,
+		"productName": "Пылесос-робот RoboRock S5 Max white",
+		"price": "11119",
+		"src": "https://i.eldorado.ua//240x220/goods_images/1061560/6939779-1611572205.jpg",
+		"article": "66666",
+		"color": "red"
+	},
+	{
+		"id": 7,
+		"productName": "Телевизор SAMSUNG",
+		"price": "30999",
+		"src": "https://i.eldorado.ua//240x220/goods_images/1038962/7516581-1637326358.jpg",
+		"article": "77777",
+		"color": "red"
+	},
+	{
+		"id": 8,
+		"productName": "Микроволновая печь SAMSUNG ",
+		"price": "3999",
+		"src": "https://i.eldorado.ua//240x220/goods_images/1039050/6146083-1521463061.jpg",
+		"article": "88888",
+		"color": "red"
+	},
+	{
+		"id": 9,
+		"productName": "Мясорубка TEFAL",
+		"price": "4999",
+		"src": "https://i.eldorado.ua//240x220/goods_images/1039054/7519427-1637567422.jpg",
+		"article": "33334",
+		"color": "red"
+	},	{
+		"id": 10,
+		"productName": "Пылесос ROWENTA ",
+		"price": "3999",
+		"src": "https://i.eldorado.ua//240x220/goods_images/1039038/6884349-1607681054.jpg",
+		"article": "33345",
+		"color": "red"
+	}
+	
+]

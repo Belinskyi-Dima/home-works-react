@@ -1,28 +1,29 @@
 import React from "react";
-
+import Button from "../Button/Button.jsx"
+import star from "../../img/star.svg"
 class Product extends React.Component {
+	
 	constructor(props) {
 		super(props)
-		
-	}
 
+
+	}
 	render(){
 		return(
 			<>
-		{console.log("product")}
-		
-				 <p>333333 </p> 
-	 		<div className="card-list">{this.props.text}
-				<div className="card-item" id={this.props.key}>
-					{/* <img src="https://st.aliexpress.ru/mixer/ssr/1/aer-assets/media/ae-star.9c42614764446e264e81062dad87f117.png" alt="star" /> */}
-					
-					<img src={this.props.src} alt="star"/>
+	 		<div className="card-list" id={this.props.key}>
+				<div className="card-item" >
+				<img id={this.props.dataid} className="icon-star" style={this.props.backgroundColor} onClick={this.props.onClick} src={star} alt="star" />
+				{/* <Button text={"like"} className="btn"/> */}
+				
 					<img className="card-img" src={this.props.src} alt="товар" />
 					<p className="card-name">{this.props.productName}</p>
-					<p>{this.props.price}</p>
+					<p>{this.props.price}грн</p>
 					<p className="card-article">cod:{this.props.article}</p>
+					{/* <button onClick={this.props.btn} className='card-btn'>Add to Basket</button> */}
+					{/* <Button text="Add to Basket" onClick={this.props.btn} className="btn btn-basket"/> */}
+					{this.props.button}
 				</div>
-				<button>Add to Basket</button>
 			
 			</div>
 			</>

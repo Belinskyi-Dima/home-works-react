@@ -1,7 +1,17 @@
+
 .modalOverlay {
-background: rgba(197, 188, 188, 0.707);
-height: 100%;
-padding: 100px;
+	// position: absolute;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(197, 188, 188, 0.707);
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	// padding: 100px;
 
 }
 .modalWindow {
@@ -19,7 +29,7 @@ padding: 100px;
 }
 .btn {
 	border: none;
-	background: rgb(115, 127, 220);
+	// background: rgb(115, 127, 220);
 	border-radius: 5px;
 	color: white;
 	margin: 5px;

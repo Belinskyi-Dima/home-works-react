@@ -1,79 +1,88 @@
 [
 	{
-		"id": 1,
+		"id": "1001",
 		"productName": "Пилосос-робот RoboRock S5 Max white",
-
+		"favourite": "https://st.aliexpress.ru/mixer/ssr/1/aer-assets/media/ae-star.9c42614764446e264e81062dad87f117.png",
 		"price": "13 999 ",
 		"src": "https://i.eldorado.ua//240x220//goods_images/1451487/818e287f3dda72a8d8d94f228d84a055.jpg",
 		"article": "11111",
 		"color": "red"
 	},
 	{
-		"id": 2,
+		"id": "1002",
 		"productName": "Ноутбук LENOVO IdeaPad 3 15IML05 Business Black",
+		"favourite": "https://st.aliexpress.ru/mixer/ssr/1/aer-assets/media/ae-star.9c42614764446e264e81062dad87f117.png",
 		"price": "111666",
 		"src": "https://i.eldorado.ua//240x220/goods_images/1039096/6888785-1607961318.jpg",
 		"article": "22222",
 		"color": "red"
 	},
 	{
-		"id": 3,
+		"id": "1003",
 		"productName": "Стиральная машина LG ",
+		"favourite": "https://st.aliexpress.ru/mixer/ssr/1/aer-assets/media/ae-star.9c42614764446e264e81062dad87f117.png",
 		"price": "9999",
 		"src": "https://i.eldorado.ua//240x220/goods_images/1039034/6745499-1600089540.jpg",
 		"article": "33333",
 		"color": "red"
 	},
 	{
-		"id": 4,
+		"id": "1004",
 		"productName": "Наушники APPLE AirPods with Charging Case ",
+		"favourite": "https://st.aliexpress.ru/mixer/ssr/1/aer-assets/media/ae-star.9c42614764446e264e81062dad87f117.png",
 		"price": "4555",
 		"src": "https://i.eldorado.ua//240x220/goods_images/1038998/6317229-1553694876.png",
 		"article": "44444",
 		"color": "red"
 	},
 	{
-		"id": 5,
+		"id": "1005",
 		"productName": "Смартфон SAMSUNG Galaxy M52 6/128GB Light Blue",
+		"favourite": "https://st.aliexpress.ru/mixer/ssr/1/aer-assets/media/ae-star.9c42614764446e264e81062dad87f117.png",
 		"price": "10500",
 		"src": "https://i.eldorado.ua//240x220/goods_images/1038946/7408621-1632813183.jpg",
 		"article": "55555",
 		"color": "red"
 	},
 	{
-		"id": 6,
+		"id": "1006",
 		"productName": "Пылесос-робот RoboRock S5 Max white",
+		"favourite": "https://st.aliexpress.ru/mixer/ssr/1/aer-assets/media/ae-star.9c42614764446e264e81062dad87f117.png",
 		"price": "11119",
 		"src": "https://i.eldorado.ua//240x220/goods_images/1061560/6939779-1611572205.jpg",
 		"article": "66666",
 		"color": "red"
 	},
 	{
-		"id": 7,
+		"id": "1007",
 		"productName": "Телевизор SAMSUNG",
+		"favourite": "https://st.aliexpress.ru/mixer/ssr/1/aer-assets/media/ae-star.9c42614764446e264e81062dad87f117.png",
 		"price": "30999",
 		"src": "https://i.eldorado.ua//240x220/goods_images/1038962/7516581-1637326358.jpg",
 		"article": "77777",
 		"color": "red"
 	},
 	{
-		"id": 8,
+		"id": "1008",
 		"productName": "Микроволновая печь SAMSUNG ",
+		"favourite": "https://st.aliexpress.ru/mixer/ssr/1/aer-assets/media/ae-star.9c42614764446e264e81062dad87f117.png",
 		"price": "3999",
 		"src": "https://i.eldorado.ua//240x220/goods_images/1039050/6146083-1521463061.jpg",
 		"article": "88888",
 		"color": "red"
 	},
 	{
-		"id": 9,
+		"id": "1009",
 		"productName": "Мясорубка TEFAL",
 		"price": "4999",
+		"favourite": "https://st.aliexpress.ru/mixer/ssr/1/aer-assets/media/ae-star.9c42614764446e264e81062dad87f117.png",
 		"src": "https://i.eldorado.ua//240x220/goods_images/1039054/7519427-1637567422.jpg",
 		"article": "33334",
 		"color": "red"
 	},	{
-		"id": 10,
+		"id": "1010",
 		"productName": "Пылесос ROWENTA ",
+		"favourite": "https://st.aliexpress.ru/mixer/ssr/1/aer-assets/media/ae-star.9c42614764446e264e81062dad87f117.png",
 		"price": "3999",
 		"src": "https://i.eldorado.ua//240x220/goods_images/1039038/6884349-1607681054.jpg",
 		"article": "33345",

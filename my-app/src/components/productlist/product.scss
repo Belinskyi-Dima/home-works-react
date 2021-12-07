@@ -8,12 +8,22 @@
 	
 }
 .card-item {
-	text-align: center;
+
+text-align: center;
 width: 300px;
 list-style: none;
 border: 1px solid rgb(95, 117, 240);
 border-radius: 5px;
 padding-top: 15px;
+}
+.icon-star {
+	// background: rgb(232, 145, 145);
+	display: block;
+	margin-left: 10px;
+	cursor: pointer;
+}
+.icon-star-active {
+	background: rgb(232, 145, 145);
 }
 .card-img {
 width: 150px;
@@ -27,4 +37,12 @@ margin-bottom: 10px;
 }
 .card-article {
 	
+}
+.card-btn {
+	background: rgb(0, 130, 252);
+	border: none;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	cursor: pointer;
+
 }

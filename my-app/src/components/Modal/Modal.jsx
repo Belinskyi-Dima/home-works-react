@@ -10,6 +10,7 @@ class Modal extends React.Component {
 		this.state = {
 			isOpen: true,
 		}
+		// console.log(props);
 	}
 	
 	render () {
@@ -20,8 +21,9 @@ class Modal extends React.Component {
 					<div className='modalWindow'>
 						<div className='modalHeader'>
 							<h2 className="title">{this.props.header}</h2>
+							<button onClick={this.props.onBasket} className= "btn-add btn" name='times'>add</button>
 							<button onClick={this.props.onClick} className= "btn-close btn" name='times'>close</button>
-
+							
 						</div>
 						<div className='modalBody'>
 							{this.props.text}

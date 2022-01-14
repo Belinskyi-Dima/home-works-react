@@ -3,8 +3,8 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App.js';
 import reportWebVitals from './reportWebVitals';
-import Button from "./components/Button/Button.jsx";
-import Card from "./components/Card.jsx"
+// import Button from "./components/Button/Button.jsx";
+// import Card from "./components/Card.jsx"
 // import list from "./components/list.json"
 // import  "./components/list.json"
 

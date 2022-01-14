@@ -1,36 +1,42 @@
-import React from "react";
+import React, {useContext,useState} from "react";
 import './Modal.scss'
 // import Button from "./components/Button/Button.jsx";
-
+import { GlobalContext } from "../context/GlobalState"
 import Portal from "../Portal"
 
-class Modal extends React.Component {
-	constructor(props) {
-		super(props)
-		this.state = {
-			isOpen: true,
-		}
-		// console.log(props);
-	}
-	
-	render () {
+
+
+const Modal =({closeModal,  text, type,data, results})=>{
+
+	// const [isOpen, setIsOpen] = useState(true);
+
+	// const {basket, addToBasket} = useContext(GlobalContext);
+
+
 		return (
 			<>
 			<Portal>
-				<div onClick={this.props.onClick} className='modalOverlay'>
+				<div onClick={closeModal} className='modalOverlay'>
 					<div className='modalWindow'>
 						<div className='modalHeader'>
-							<h2 className="title">{this.props.header}</h2>
-							<button onClick={this.props.onBasket} className= "btn-add btn" name='times'>add</button>
-							<button onClick={this.props.onClick} className= "btn-close btn" name='times'>close</button>
+						
+							<button 
+								className= "btn-add btn" 
+								name='times'>add
+							</button>
+							<button 
+								onClick={closeModal} 
+								className= "btn-close btn" 
+								name='times'>close
+							</button>
 							
 						</div>
 						<div className='modalBody'>
-							{this.props.text}
+							{text}
 						</div>
-						<p>{this.props.description}</p>
+						{/* <p>{this.props.description}</p> */}
 						<div className='modalFooter'>
-							{this.props.action}	
+							{/* {this.props.action}	 */}
 						</div>
 
 					</div>
@@ -39,6 +45,6 @@ class Modal extends React.Component {
 			</>
 		)
 	}
-}
+// }
 export default Modal;
  
